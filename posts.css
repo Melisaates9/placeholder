@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+.comments{
+border: 2.5px solid black;
+margin-bottom: 6px;
+
+
+}
