@@ -9,16 +9,19 @@
   border-radius: 7px;
   box-shadow: inset;
   transition: all;
-  height: 200px;
+ 
   margin-bottom: 15px;
   border-radius: 10px;
   color: rgb(59, 45, 26);
 
+
 }
-.wrapper {
+.wrapper  {
   display: flex;
+  flex-direction: column;
   gap: 15px;
   background: #53515130;
+text-align: center;
 }
 .cards i {
   color: rgba(88, 60, 26, 0.708);

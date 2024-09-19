@@ -14,7 +14,7 @@ async function getUsers() {
 }
 const row = document.querySelector(".row");
 function createCards(user) {
-  row.innerHTML += ` <div class="cards" >
+  row.innerHTML += ` <div class="cards col-4" >
   <a href="posts.html?userId=${user.id}"><i class="fa-solid fa-comment"></i></a>
   <div class="wrapper">
   <div class="users"> 
