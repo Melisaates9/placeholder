@@ -2,12 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    
   }
   
 
 .comments{
 border: 2.5px solid black;
 margin-bottom: 6px;
+width: 250px;
+border-radius: 10px;
 
 
+}
+.title{
+ font-weight: 700;
+}
+.expo{
+  opacity: 0.8;
+}
+body{
+  background:#53515183;
+  
 }

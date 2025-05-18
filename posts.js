@@ -21,10 +21,10 @@ const row = document.querySelector(".row");
 function createCards(comment) {
   row.innerHTML += ` 
   <div class="comments">
-    <p>userId: ${comment.userId}</p>
-    <p>id: ${comment.id}</p>
-    <p>title: ${comment.title}</p>
-    <p>body: ${comment.body}</p>
+<p>    <span class="title"> UserId </span> : <span class="expo">${comment.userId} </span></p>
+    <p> <span class="title">id</span>: <span class="expo"> ${comment.id} </span></p>
+    <p><span class="title">title</span>:  <span class="expo">${comment.title} </span></p>
+    <p><span class="title">body</span>:  <span class="expo">${comment.body}</span></p>
     </div>
     
     `;
