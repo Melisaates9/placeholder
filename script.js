@@ -4,7 +4,7 @@ async function getUsers() {
     const response = await fetch("https://jsonplaceholder.typicode.com/users");
     data = await response.json();
   } catch (error) {
-    console.log("Bir hata oluştu: " + error);
+  
   }
 
   // kartların olduğu yer
@@ -14,7 +14,7 @@ async function getUsers() {
 }
 const row = document.querySelector(".row");
 function createCards(user) {
-  row.innerHTML += ` <div class="cards col-4" >
+  row.innerHTML += ` <div class="cards col-12  col-md-4 " >
   <a href="posts.html?userId=${user.id}"><i class="fa-solid fa-comment"></i></a>
   <div class="wrapper">
   <div class="users"> 
